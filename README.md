@@ -42,3 +42,17 @@ Verificar versiones instaladas:
 php -v
 composer -V
 git --version
+
+
+# Instalación
+```bash
+git clone <https://github.com/jsbrad23/catalogo-laravel.git>
+cd catalogo
+composer install
+cp .env.example .env
+php artisan key:generate
+
+
+
+
+
